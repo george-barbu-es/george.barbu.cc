@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: barbugeorgedev/resume #TODO replace this with your own repo
+  repo: george-barbu-cc/resume #TODO replace this with your own repo
   branch: main
 
 public_folder: assets

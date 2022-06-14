@@ -51,7 +51,7 @@ backend:
   repo: george-barbu-cc/resume #TODO replace this with your own repo
 ```
 
-Publish your repo to Github, then, open [Netlify](app.netlify.com) and add a “New site from Git”. Choose your newly created repo and click on “Deploy site” with the default deployment settings.
+Publish your repo to Github, then, open [Netlify](https://app.netlify.com) and add a “New site from Git”. Choose your newly created repo and click on “Deploy site” with the default deployment settings.
 
 Finally need to set up an OAuth application on GitHub. Start development build with `gatsby develop` and visit `http://localhost:8000/admin` and authorize Netlify to make commits for you.
 

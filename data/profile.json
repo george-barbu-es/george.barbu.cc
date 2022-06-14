@@ -1,0 +1,440 @@
+{
+  "contact": {
+    "label": "CONTACT DETAILS",
+    "items": [
+      {
+        "service": "location",
+        "value": "Manilva, Spain"
+      },
+      {
+        "service": "phone",
+        "value": "+34 722 85 31 39"
+      },
+      {
+        "service": "homephone",
+        "value": "+40 727 97 12 15"
+      },
+      {
+        "service": "email",
+        "value": "george@barbu.cc"
+      },
+      {
+        "service": "website",
+        "value": "https://george.barbu.cc"
+      }
+    ]
+  },
+  "header": {
+    "fullname": "GEORGE BARBU",
+    "role": "FULLSTACK DEVELOPER",
+    "slogan": "My objective is “performance”"
+  },
+  "summary": {
+    "label": "PERSONAL PROFILE",
+    "text": "Web developer with more than 7 years of experience\nin HTML, CSS, JavaScript. With a strong desire to\nlearn I’m always looking for ways to provide more\nvalue to the business by closely working with other\ndepartments (Product, Marketing, BI)"
+  },
+  "skills": [
+    {
+      "title": "AREAS OF EXPERTISE",
+      "type": "list",
+      "items": [
+        {
+          "name": "Research"
+        },
+        {
+          "name": "Optimization"
+        },
+        {
+          "name": "User Interface"
+        },
+        {
+          "name": "Full Stack Web"
+        },
+        {
+          "name": "Communication"
+        },
+        {
+          "name": "Design Thinking"
+        },
+        {
+          "name": "User Experience"
+        }
+      ]
+    },
+    {
+      "title": "SPECIALIZATIONS",
+      "type": "tag",
+      "items": [
+        {
+          "name": "GIT"
+        },
+        {
+          "name": "PHP"
+        },
+        {
+          "name": "CMS"
+        },
+        {
+          "name": "AJAX"
+        },
+        {
+          "name": "GULP"
+        },
+        {
+          "name": "Vue.js"
+        },
+        {
+          "name": "Jquery"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "MySQL"
+        },
+        {
+          "name": "Laravel"
+        },
+        {
+          "name": "Alpine.js"
+        },
+        {
+          "name": "SiteCore"
+        },
+        {
+          "name": "Gatsby.js"
+        },
+        {
+          "name": "Webpack"
+        },
+        {
+          "name": "CakePHP"
+        },
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "WordPress"
+        },
+        {
+          "name": "LESS/SCSS"
+        },
+        {
+          "name": "TailwindCSS"
+        },
+        {
+          "name": "Backbone.js"
+        },
+        {
+          "name": "SOAP/REST"
+        },
+        {
+          "name": "HTML5/PUG"
+        },
+        {
+          "name": "HeadlessCMS"
+        }
+      ]
+    },
+    {
+      "title": "SKILLS",
+      "type": "tag",
+      "items": [
+        {
+          "name": "Googling"
+        },
+        {
+          "name": "Team Spirit"
+        },
+        {
+          "name": "Self-starting"
+        },
+        {
+          "name": "Communicative"
+        },
+        {
+          "name": "Well Organized"
+        }
+      ]
+    }
+  ],
+  "social": [
+    {
+      "service": "github",
+      "url": "https://github.com/george-barbu-cc"
+    },
+    {
+      "service": "linkedin",
+      "url": "https://www.linkedin.com/in/barbugeorge/"
+    },
+    {
+      "service": "facebook",
+      "url": "https://www.linkedin.com/in/barbugeorge/"
+    }
+  ],
+  "education": [
+    {
+      "label": "EDUCATION HISTORY",
+      "items": [
+        {
+          "institution": "EDMOND NICOLAU TECHNICAL COLLEGE",
+          "degree": "Compuer Science",
+          "type": "Hight Scool",
+          "certifications": [
+            {
+              "name": "ORACLE Certification: Award of Achievement Computer Science Certified"
+            },
+            {
+              "name": "Organiser at National Festival \"Mihai Eminescu\" Editions 4-6 (2007-2009)"
+            },
+            {
+              "name": "Computer Science Certification"
+            }
+          ]
+        },
+        {
+          "institution": "EDMOND NICOLAU TECHNICAL COLLEGE",
+          "degree": "Electronics",
+          "type": "Junior College",
+          "certifications": [
+            {
+              "name": "CISCO: CCNA Discovery: Networking for Home and Small Businesses"
+            },
+            {
+              "name": "Electronic Automation Equipment Technician Certification"
+            },
+            {
+              "name": "CISCO: IT Essentials: PC Hardware and Software"
+            },
+            {
+              "name": "ORACLE: Java Fundamentals"
+            },
+            {
+              "name": "ORACLE: Java Programming"
+            },
+            {
+              "name": "ORACLE: Database Design"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "label": "EMPLOYMENT HISTORY",
+      "items": [
+        {
+          "start": "2021",
+          "presentDate": "Yes",
+          "endDate": "2021",
+          "startDate": "2021",
+          "duties": [
+            {
+              "duty": "Optimize the gaming application for maximum performance"
+            }
+          ],
+          "service": "Yes",
+          "role": "FULL STACK DEVELOPER",
+          "end": "2021",
+          "company": "Kindred Group"
+        },
+        {
+          "start": "2019",
+          "presentDate": "No",
+          "endDate": "2021",
+          "startDate": "2019",
+          "duties": [
+            {
+              "duty": "Responsible for delivering complex projects from concept to implementation"
+            },
+            {
+              "duty": "Create, maintain and update custom applications for CMS and Ops Teams"
+            },
+            {
+              "duty": "Develop and implement new features to Headline Promotions"
+            },
+            {
+              "duty": "Create new Landing Pages Platform"
+            }
+          ],
+          "service": "No",
+          "role": "FRONTEND DEVELOPER",
+          "end": "2021",
+          "company": "ENTAIN"
+        },
+        {
+          "start": "2018",
+          "presentDate": "No",
+          "endDate": "2019",
+          "startDate": "2018",
+          "duties": [
+            {
+              "duty": "Build custom functionalities both for Frontend and Backend"
+            },
+            {
+              "duty": "Work with the brand content team to make sure new requests are in line with the technical capabilities of the platform and the team"
+            },
+            {
+              "duty": "Peer review the work delivered by the team to ensure only highest quality is delivered"
+            }
+          ],
+          "service": "No",
+          "role": "WEB DEVELOPER",
+          "end": "2019",
+          "company": "ENTAIN"
+        },
+        {
+          "start": "2016",
+          "presentDate": "No",
+          "endDate": "2018",
+          "startDate": "2016",
+          "duties": [
+            {
+              "duty": "Optimize the gaming application for maximum performance"
+            },
+            {
+              "duty": "Design and deliver the platform migration from MicroGaming to Finnplay"
+            },
+            {
+              "duty": "Asist the content team in defining new request in line with the technical capabilities"
+            }
+          ],
+          "service": "No",
+          "role": "FULL STACK DEVELOPER",
+          "end": "2018",
+          "company": "GoWild Gaming"
+        },
+        {
+          "start": "2015",
+          "presentDate": "No",
+          "endDate": "2016",
+          "startDate": "2015",
+          "duties": [
+            {
+              "duty": "Lead a team of web developers, graphic designers and content managers"
+            },
+            {
+              "duty": "Lead the evaluation and design of new technical solutions"
+            },
+            {
+              "duty": "Formulate the team strategy and development plans"
+            }
+          ],
+          "service": "No",
+          "role": "LEAD SEO DEPARTMENT",
+          "end": "2016",
+          "company": "GoWild Gaming"
+        },
+        {
+          "start": "2014",
+          "presentDate": "No",
+          "endDate": "2015",
+          "startDate": "2014",
+          "duties": [
+            {
+              "duty": "Create websites both with HTML / CSS and using WordPress"
+            },
+            {
+              "duty": "Web design development (CMS, E-Commerce, WordPress)"
+            },
+            {
+              "duty": "Full stack developer"
+            }
+          ],
+          "service": "No",
+          "role": "WEB DEVELOPER",
+          "end": "2015",
+          "company": "Angel Hot Soft LLC"
+        },
+        {
+          "start": "2014",
+          "presentDate": "No",
+          "endDate": "2014",
+          "startDate": "2014",
+          "duties": [
+            {
+              "duty": "Create new functionality to the existing Learning Management System (LMS)"
+            },
+            {
+              "duty": "Develop new reports in the internal reporting system using MySQL"
+            },
+            {
+              "duty": "Learn Back End technologies and develop the in house applications"
+            }
+          ],
+          "service": "No",
+          "role": "PROGRAMING - INTERNSHIP",
+          "end": "2014",
+          "company": "The EXP Group"
+        },
+        {
+          "start": "2012",
+          "presentDate": "No",
+          "endDate": "2014",
+          "startDate": "2012",
+          "duties": [
+            {
+              "duty": "In charge of customer experience ensuring they enjoy the time spent in the casino and increasing their brand loyalty"
+            },
+            {
+              "duty": "Create a lively gaming experience for players"
+            },
+            {
+              "duty": "Ensure all bet rules are respected"
+            }
+          ],
+          "service": "No",
+          "role": "CASINO DEALER",
+          "end": "2014",
+          "company": "Casino Metropolis"
+        },
+        {
+          "start": "2011",
+          "presentDate": "No",
+          "endDate": "2012",
+          "startDate": "2011",
+          "duties": [
+            {
+              "duty": "Identify bugs or faulty hardware subassemblies"
+            },
+            {
+              "duty": "Resolve bugs according to existing procedures"
+            },
+            {
+              "duty": "Create and run test plans"
+            }
+          ],
+          "service": "No",
+          "role": "SOFTWARE TEST TECHNICIAN",
+          "end": "2012",
+          "company": "HP"
+        },
+        {
+          "start": "2012",
+          "presentDate": "Yes",
+          "endDate": "2021",
+          "startDate": "2021",
+          "duties": [
+            {
+              "duty": "Working with and coordinated both customers internal teams and 3rd party providers in order to ensure the project meets both business and technical requirements"
+            },
+            {
+              "duty": "Enhancing user experience and accomplishing webpage objectives by developing the site stricture, graphic integrations and performance optimization."
+            },
+            {
+              "duty": "Providing guidance and troubleshooting support to customers"
+            },
+            {
+              "duty": "Maintaining an organizing workflow using GitHub"
+            }
+          ],
+          "service": "Yes",
+          "role": "FREELANCE",
+          "end": "2021",
+          "company": "barbu.cc"
+        }
+      ]
+    }
+  ]
+}

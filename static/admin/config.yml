@@ -1,0 +1,102 @@
+backend:
+  name: github
+  repo: barbugeorgedev/resume #TODO replace this with your own repo
+  branch: main
+
+public_folder: assets
+media_folder: static/assets
+publish_mode: editorial_workflow
+display_url: Resume George Barbu
+site_url: https://george.barbu.c
+logo_url: https://george.barbu.cc/netlify-cms-logo.pngc
+
+collections:
+  - name: content
+    label: Content
+    files:
+      - label: Resume
+        name: resume
+        file: "data/profile.json"
+        fields:
+          - label: Header
+            name: header
+            widget: object
+            required: true 
+            fields:
+              - { label: "Full Name", name: fullname, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Slogan, name: slogan, widget: string }
+          - label: PERSONAL PROFILE
+            name: summary
+            widget: object
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Text, name: text, widget: text }
+          - label: Experience
+            name: experience
+            widget: list
+            required: false
+            fields:
+              - { label: Label, name: label, widget: string, required: true }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Role, name: role, widget: string, required: true }
+                  - { label: Company, name: company, widget: string, required: true }
+                  - { label: "Start date", name: startDate, widget: date, date_format: YYYY, format: 'YYYY', required: true }
+                  - { label: "End date", name: endDate, widget: date, date_format: YYYY, format: 'YYYY', required: false }
+                  - { label: Present, name: presentDate, widget: select, options: ['Yes', 'No'], default: 'No', required: true}
+                  - label: Duties
+                    name: duties
+                    widget: list
+                    fields:
+                      - { label: Duty, name: duty, widget: string }
+          - label: Skills
+            name: skills
+            widget: list
+            required: false
+            fields:
+              - { label: Title, name: title, widget: string, required: true  }
+              - { label: Type, name: type, widget: select, options: [tag, list], required: true  }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Name, name: name, widget: string, required: true  }
+          - label: "Contact"
+            name: contact
+            widget: object
+            fields:
+            - { label: Label, name: label, widget: string, required: false }
+            - label: Contacts
+              name: items
+              widget: list
+              fields:
+                - { label: Service, name: service, widget: select, options: [location, homephone, phone, website, email, service]}
+                - { label: Value, name: value, widget: string }        
+          - label: Education
+            name: education
+            widget: list
+            required: false
+            fields:
+              - { label: Label, name: label, widget: string, required: true }
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - { label: Institution, name: institution, widget: string }
+                  - { label: Degree, name: degree, widget: string }
+                  - { label: Type, name: type, widget: string }
+                  - label: Certifications
+                    name: certifications
+                    widget: list
+                    fields:
+                      - { label: Name, name: name, widget: string }
+          - label: "Footer"
+            name: social
+            widget: list
+            required: false
+            fields:
+              - { label: Service, name: service, widget: select, options: [github, linkedin, twitter, facebook, youtube, instagram, behance, dribbble, angellist]}
+              - { label: URL, name: url, widget: string }

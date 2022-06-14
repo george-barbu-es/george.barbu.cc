@@ -7,8 +7,8 @@ public_folder: assets
 media_folder: static/assets
 publish_mode: editorial_workflow
 display_url: Resume George Barbu
-site_url: https://george.barbu.c
-logo_url: https://george.barbu.cc/netlify-cms-logo.pngc
+site_url: https://george.barbu.cc
+logo_url: https://george.barbu.cc/netlify-cms-logo.png
 
 collections:
   - name: content

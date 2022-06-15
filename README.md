@@ -1,5 +1,7 @@
 # Gatsby Starter Resume CMS
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec2d2ed4-bab8-402f-b24b-090bc4e909a2/deploy-status)](https://app.netlify.com/sites/george-barbu-cc/deploys)
+
 ## Features
 
 - One-page resume/CV

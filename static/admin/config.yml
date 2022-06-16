@@ -98,5 +98,5 @@ collections:
             widget: list
             required: false
             fields:
-              - { label: Service, name: service, widget: select, options: [github, linkedin, twitter, facebook, youtube, instagram, behance, dribbble, angellist]}
+              - { label: Service, name: service, widget: select, options: [github, linkedin, twitter, facebook, youtube, instagram, behance, dribbble, angellist, cc]}
               - { label: URL, name: url, widget: string }

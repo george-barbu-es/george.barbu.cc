@@ -8,6 +8,7 @@ import InstagramIcon from '../assets/instagram.svg';
 import BehanceIcon from '../assets/behance.svg';
 import DribbbleIcon from '../assets/dribbble.svg';
 import AngelIcon from '../assets/angellist.svg';
+import CcIcon from '../assets/cc.svg';
 
 const SocialIcon = ({ type }) => {
   switch (type) {
@@ -29,6 +30,8 @@ const SocialIcon = ({ type }) => {
       return <DribbbleIcon className="h-6 fill-current" />;
     case 'angellist':
       return <AngelIcon className="h-6 fill-current" />;
+    case 'cc':
+      return <CcIcon className="h-6 fill-current" />;
     default:
       return null;
   }

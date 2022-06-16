@@ -227,11 +227,17 @@
         {
           "start": "2021",
           "presentDate": "Yes",
-          "endDate": "2021",
+          "endDate": "",
           "startDate": "2021",
           "duties": [
             {
-              "duty": "Optimize the gaming application for maximum performance"
+              "duty": "Optimizing the gaming application for maximum performance"
+            },
+            {
+              "duty": "Leading complex projects from concept to implementation"
+            },
+            {
+              "duty": "Playing a key role in the development, improvement, and operation of web-based software"
             }
           ],
           "service": "Yes",
@@ -246,20 +252,20 @@
           "startDate": "2019",
           "duties": [
             {
-              "duty": "Responsible for delivering complex projects from concept to implementation"
+              "duty": "Lead complex projects from concept to implementation"
             },
             {
-              "duty": "Create, maintain and update custom applications for CMS and Ops Teams"
+              "duty": "Created, maintained and updated custom applications for CMS and Ops Teams"
             },
             {
-              "duty": "Develop and implement new features to Headline Promotions"
+              "duty": "Developed and implemented new features for Headline Promotions"
             },
             {
-              "duty": "Create new Landing Pages Platform"
+              "duty": "Created new Landing Pages Platform"
             }
           ],
           "service": "No",
-          "role": "FRONTEND DEVELOPER",
+          "role": "Principal Frontend Developer",
           "end": "2021",
           "company": "ENTAIN"
         },
@@ -301,7 +307,7 @@
             }
           ],
           "service": "No",
-          "role": "FULL STACK DEVELOPER",
+          "role": "Principal Developer",
           "end": "2018",
           "company": "GoWild Gaming"
         },
@@ -322,7 +328,7 @@
             }
           ],
           "service": "No",
-          "role": "LEAD SEO DEPARTMENT",
+          "role": "Dev Team Lead (Contract)",
           "end": "2016",
           "company": "GoWild Gaming"
         },

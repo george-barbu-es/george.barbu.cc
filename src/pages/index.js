@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Seo,
   Footer,
-  Header,
+  TopHeader,
   Sidebar,
   Education,
   Experience,
@@ -13,10 +13,17 @@ import resume from '../../data/profile';
 import PrintIcon from '../assets/print.svg';
 import DownloadIcon from '../assets/download.svg';
 
- 
+import { graphql } from 'gatsby';
 
-export default function Home() {
+export const query = graphql`
+  query ProfileImage {
+    cloudinaryMedia(asset_id: {eq: "9cba289bb7130bb8a627a220567596ad"}) {
+        gatsbyImageData(width: 280, placeholder: BLURRED)
+    }
+  }
+`;
 
+export default function Home({ data }) {
     // const documentRef = React.createRef();
     const downloadPDF = () => {
         var element = document.createElement('a'); 
@@ -49,18 +56,16 @@ export default function Home() {
             
             <Seo title="Resume" />
             <header data-exclude="true" className="max-w-screen-pdf relative mx-auto items-center justify-center text-center pt-6 lg:pb-5 ">
-                <button onClick={downloadPDF} type="primary" className="mr-2">
+                <button onClick={downloadPDF} type="primary" className="mr-2" aria-label="Download CV">
                     <DownloadIcon className="h-6 fill-current" />
                 </button> 
-                <button onClick={printPDF} type="primary" className="ml-2">
+                <button onClick={printPDF} type="primary" className="ml-2" aria-label="Print CV">
                     <PrintIcon className="h-6 fill-current" />
                 </button> 
             </header>
 
             <div className="printColor max-w-screen-pdf relative mx-auto lg:flex">
-                <Header 
-                    data={resume.header}
-                /> 
+                <TopHeader data={{'text':resume.header, 'profileImage':data}} /> 
                 <div className="bg-secondary px-8 lg:w-2/5">
                     <Sidebar  
                         className="mt-5 pb-10 pt-16 print:pt-56 sm:pt-56"

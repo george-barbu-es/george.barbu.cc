@@ -1,4 +1,4 @@
-export { default as Header } from './header';
+export { default as TopHeader  } from './top_header';
 export { default as Contact } from './contact';
 export { default as Summary } from './summary';
 export { default as Experience } from './experience';
@@ -6,5 +6,4 @@ export { default as Skills } from './skills';
 export { default as Education } from './education';
 export { default as Footer } from './footer';
 export { default as Seo } from './seo';
-export { default as Image } from './image';
 export { default as Sidebar } from './sidebar';

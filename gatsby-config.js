@@ -17,9 +17,6 @@ module.exports = {
     by closely working with other departments (Product, Marketing, BI)`,
     siteUrl: process.env.GATSBY_SITE_URL,
   },
-  flags: {
-    THE_FLAG: false
-  },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
@@ -80,5 +77,27 @@ module.exports = {
         },
       },
     },
+   {
+      resolve: `gatsby-source-cloudinary`,
+      options: {
+        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+        apiKey: process.env.CLOUDINARY_API_KEY,
+        apiSecret: process.env.CLOUDINARY_API_SECRET,
+        resourceType: `image`,
+        prefix: `george.barbu.cc/` 
+        // type: `twitter`,
+        // maxResults: 22,
+        // tags: true,
+        // context: true,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-cloudinary`,
+      options: {
+        // Add the `gatsbyImageData` resolver to `CloudinaryMedia`
+        transformTypes: [`CloudinaryMedia`],
+      },
+    },
+    `gatsby-plugin-image`,
   ],
 };

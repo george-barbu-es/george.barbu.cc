@@ -18,7 +18,7 @@ import { graphql } from 'gatsby';
 export const query = graphql`
   query ProfileImage {
     cloudinaryMedia(asset_id: {eq: "9cba289bb7130bb8a627a220567596ad"}) {
-        gatsbyImageData(width: 280, placeholder: BLURRED)
+        gatsbyImageData(width: 1920, placeholder: BLURRED)
     }
   }
 `;

@@ -99,7 +99,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-image`,
-    'gatsby-transformer-sharp',
     {
       resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
       options: {

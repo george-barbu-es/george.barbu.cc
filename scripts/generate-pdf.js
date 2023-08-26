@@ -29,6 +29,7 @@ shell.mkdir('-p', './public/exports');
     deviceScaleFactor: 1,
   });
 
+  await page.waitForTimeout(4000)
 
   await page.setContent(contentHtml);
   let remove_selector = '[data-exclude="true"]';

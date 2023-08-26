@@ -8,7 +8,7 @@ const Contact = ({ data, className }) => (
       {data && (
         <>
         {data.items.map((contact, index ) => (
-          <li className="px-2" key={index}>
+          <li className="py-2" key={index}>
           {contact.service === 'location' && (
               <span>{contact.value}</span>
           )}

@@ -22,6 +22,7 @@ shell.mkdir('-p', './public/exports');
 
   const browser = await puppeteer.launch({headless: true});
   const page = await browser.newPage();
+  await page.waitForTimeout(4000)
   await page.setCacheEnabled(false);
   await page.setViewport({
     width: 1920,
@@ -29,7 +30,7 @@ shell.mkdir('-p', './public/exports');
     deviceScaleFactor: 1,
   });
 
-  await page.waitForTimeout(4000)
+
 
   await page.setContent(contentHtml);
   let remove_selector = '[data-exclude="true"]';

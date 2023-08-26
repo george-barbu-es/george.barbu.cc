@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
-.gatsby-image-wrapper.absolute {
-    position: absolute;
+@layer components  {
+    .gatsby-image-wrapper.absolute {
+        position: absolute;
+    }
 }

@@ -105,5 +105,13 @@ module.exports = {
         devMode: true,
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://george.barbu.cc',
+        sitemap: 'https://george.barbu.cc/sitemap/sitemap-index.xml',
+        policy: [{userAgent: '*', allow: '/'}],
+      }
+    },
   ],
 };

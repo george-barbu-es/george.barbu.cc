@@ -18,7 +18,7 @@ import { graphql } from 'gatsby';
 export const query = graphql`
   query ProfileImage {
     cloudinaryMedia(asset_id: {eq: "9cba289bb7130bb8a627a220567596ad"}) {
-        gatsbyImageData(width: 1920)
+        gatsbyImageData(width: 720)
     }
   }
 `;
@@ -49,10 +49,7 @@ export default function Home({ data }) {
         const resumePdfIframe = window.frames["resumePdfIframe"];
         resumePdfIframe.focus();
         resumePdfIframe.print();
-
-    const resumeIframe = window.open(process.env.GATSBY_SITE_URL);
-    resumeIframe.print();
-
+        document.body.removeChild(resumeIframe);
     }  
 
     return (

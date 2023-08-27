@@ -8,10 +8,10 @@ export default function TopHeader({data}) {
         <div className="flex relative w-full">
             <GatsbyImage className="
                 !relative w-[180px] -translate-y-24 left-0 mx-auto z-10 
-                print:!relative print:-translate-y-12 
+                print:!absolute print:-translate-y-12 
                 sm:!absolute sm:-translate-y-12 sm:left-8" 
                 alt="Profile Image"  loading="eager" image={image} 
-                width={1800} height={197}
+                width={180} height={197}
             />
         </div>
         <div className="flex flex-col justify-end content-center text-center absolute w-full print:w-4/6 print:left-1/3 print:text-left print:relative print:justify-center    sm:w-4/6 sm:left-1/3 sm:text-left sm:relative sm:justify-center">

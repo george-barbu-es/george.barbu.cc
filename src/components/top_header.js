@@ -11,7 +11,7 @@ export default function TopHeader({data}) {
             sm:!absolute  
             sm:-translate-y-12
             sm:left-8" 
-            alt="Profile Image" image={image} />
+            alt="Profile Image"  loading="eager" image={image} />
         </div>
         <div className="flex flex-col justify-end content-center text-center absolute w-full print:w-4/6 print:left-1/3 print:text-left print:relative print:justify-center    sm:w-4/6 sm:left-1/3 sm:text-left sm:relative sm:justify-center">
         {data.text &&

@@ -31,8 +31,8 @@ shell.mkdir('-p', './public/exports');
   });
 
 
-
   await page.setContent(contentHtml);
+  await page.waitForTimeout(4000)
   let remove_selector = '[data-exclude="true"]';
   await page.evaluate((sel) => {
       var elements = document.querySelectorAll(sel);

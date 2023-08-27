@@ -37,8 +37,22 @@ export default function Home({ data }) {
        
     }   
     const printPDF = () => {
-        const resumeIframe = window.open(process.env.GATSBY_SITE_URL);
-        resumeIframe.print();
+        if(!document.getElementById("resumePdfIframe")) {
+            const resumeIframe = document.createElement("iframe");
+            resumeIframe.setAttribute("src", process.env.GATSBY_PDF_EXPORT_PATH);
+            resumeIframe.setAttribute("id", "resumePdfIframe");
+            resumeIframe.setAttribute("name", "resumePdfIframe");
+            resumeIframe.style.display = "none";
+            document.body.appendChild(resumeIframe);
+        } 
+        
+        const resumePdfIframe = window.frames["resumePdfIframe"];
+        resumePdfIframe.focus();
+        resumePdfIframe.print();
+
+    const resumeIframe = window.open(process.env.GATSBY_SITE_URL);
+    resumeIframe.print();
+
     }  
 
     return (

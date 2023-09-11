@@ -47,6 +47,8 @@ export default function Home({ data }) {
         } 
         
         const resumePdfIframe = window.frames["resumePdfIframe"];
+
+        console.log(resumePdfIframe)
         resumePdfIframe.focus();
         resumePdfIframe.print();
         document.body.removeChild(resumePdfIframe);

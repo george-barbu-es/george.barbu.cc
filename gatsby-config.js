@@ -17,9 +17,6 @@ module.exports = {
     by closely working with other departments (Product, Marketing, BI)`,
     siteUrl: process.env.GATSBY_SITE_URL,
   },
-  flags: {
-    LAZY_IMAGES: false,
-  },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,

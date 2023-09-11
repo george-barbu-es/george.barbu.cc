@@ -30,7 +30,7 @@
     "slogan": "My objective is “performance”"
   },
   "summary": {
-    "label": "PERSONAL PROFILE",
+    "label": "SUMMARY",
     "text": "Web developer with more than 7 years of experience\nin HTML, CSS, JavaScript. With a strong desire to\nlearn I’m always looking for ways to provide more\nvalue to the business by closely working with other\ndepartments (Product, Marketing, BI)"
   },
   "skills": [
@@ -222,7 +222,7 @@
   ],
   "experience": [
     {
-      "label": "EMPLOYMENT HISTORY",
+      "label": "PROFESSIONAL  EXPERIENCE",
       "items": [
         {
           "start": "2021",

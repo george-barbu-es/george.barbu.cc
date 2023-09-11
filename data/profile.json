@@ -35,33 +35,6 @@
   },
   "skills": [
     {
-      "title": "AREAS OF EXPERTISE",
-      "type": "list",
-      "items": [
-        {
-          "name": "Research"
-        },
-        {
-          "name": "Optimization"
-        },
-        {
-          "name": "User Interface"
-        },
-        {
-          "name": "Full Stack Web"
-        },
-        {
-          "name": "Communication"
-        },
-        {
-          "name": "Design Thinking"
-        },
-        {
-          "name": "User Experience"
-        }
-      ]
-    },
-    {
       "title": "SKILLS",
       "type": "tag",
       "items": [
@@ -133,6 +106,33 @@
         },
         {
           "name": "HeadlessCMS"
+        }
+      ]
+    },
+    {
+      "title": "AREAS OF EXPERTISE",
+      "type": "list",
+      "items": [
+        {
+          "name": "Research"
+        },
+        {
+          "name": "Optimization"
+        },
+        {
+          "name": "User Interface"
+        },
+        {
+          "name": "Full Stack Web"
+        },
+        {
+          "name": "Communication"
+        },
+        {
+          "name": "Design Thinking"
+        },
+        {
+          "name": "User Experience"
         }
       ]
     },

@@ -20,8 +20,12 @@ shell.mkdir('-p', './public/exports');
           <aside style="width: 237.5px;background: #313638;height: 1080px;"></aside>
         `;
 
-  const browser = await puppeteer.launch({headless: true});
+  const browser = await puppeteer.launch({
+    headless: 'new',
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  });
   const page = await browser.newPage();
+  await page.setCacheEnabled(false);
   await page.waitForTimeout(4000)
   await page.setCacheEnabled(false);
   await page.setViewport({

@@ -2,7 +2,7 @@
   "name": "george-barbu-cv",
   "private": true,
   "description": "George Barbu CV",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
@@ -11,7 +11,10 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "generate": "npx babel-node scripts/generate-pdf.js",
+    "proxy-server": "npx netlify-cms-proxy-server",
+    "gcp-build": "node node_modules/puppeteer/install.js",
+    "pdf": "npx babel-node scripts/generate-pdf.js",
+    "generate": "npm run gcp-build && npm run pdf",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
@@ -55,6 +58,7 @@
     "@babel/node": "^7.22.10",
     "gatsby-plugin-netlify": "^5.1.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.31",
+    "netlify-cms-proxy-server": "^1.3.24",
     "prettier": "^2.8.8",
     "tailwindcss": "^2.2.19",
     "tailwindcss-break": "^0.1.0"

@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "proxy-server": "npx netlify-cms-proxy-server",
-    "gcp-build": "node node_modules/puppeteer/install.js",
+    "gcp-build": "npx babel-node node_modules/puppeteer/install.js",
     "pdf": "npx babel-node scripts/generate-pdf.js",
     "generate": "npm run gcp-build && npm run pdf",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"

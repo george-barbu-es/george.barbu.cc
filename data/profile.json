@@ -30,10 +30,112 @@
     "slogan": "My objective is “performance”"
   },
   "summary": {
-    "label": "PERSONAL PROFILE",
-    "text": "Web developer with more than 7 years of experience\nin HTML, CSS, JavaScript. With a strong desire to\nlearn I’m always looking for ways to provide more\nvalue to the business by closely working with other\ndepartments (Product, Marketing, BI)"
+    "label": "SUMMARY",
+    "text": "With over 10 years of expertise in HTML, CSS, and JavaScript, I possess a strong passion for continuous learning. I consistently seek opportunities to enhance business value by collaborating closely with various departments, including Product, Marketing, and BI."
   },
   "skills": [
+    {
+      "title": "SKILLS",
+      "type": "tag",
+      "items": [
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "NextJS"
+        },
+        {
+          "name": "PHP"
+        },
+        {
+          "name": "Docker"
+        },
+        {
+          "name": "Vue.js"
+        },
+        {
+          "name": "MySQL"
+        },
+        {
+          "name": "Webpack"
+        },
+        {
+          "name": "TailwindCSS"
+        },
+        {
+          "name": "GIT"
+        },
+        {
+          "name": "GraphQL"
+        },
+        {
+          "name": "Gatsby.js"
+        },
+        {
+          "name": "WordPress"
+        },
+        {
+          "name": "CMS"
+        },
+        {
+          "name": "AJAX"
+        },
+        {
+          "name": "GULP"
+        },
+        {
+          "name": "Jquery"
+        },
+        {
+          "name": "Laravel"
+        },
+        {
+          "name": "Alpine.js"
+        },
+        {
+          "name": "SiteCore"
+        },
+        {
+          "name": "CakePHP"
+        },
+        {
+          "name": "LESS/SCSS"
+        },
+        {
+          "name": "Backbone.js"
+        },
+        {
+          "name": "SOAP/REST"
+        },
+        {
+          "name": "HTML5/PUG"
+        },
+        {
+          "name": "HeadlessCMS"
+        }
+      ]
+    },
+    {
+      "title": "SOFT SKILLS",
+      "type": "tag",
+      "items": [
+        {
+          "name": "Resilience"
+        },
+        {
+          "name": "Team Spirit"
+        },
+        {
+          "name": "Self-starting"
+        },
+        {
+          "name": "Communicative"
+        },
+        {
+          "name": "Ownership"
+        }
+      ]
+    },
     {
       "title": "AREAS OF EXPERTISE",
       "type": "list",
@@ -60,102 +162,6 @@
           "name": "User Experience"
         }
       ]
-    },
-    {
-      "title": "SPECIALIZATIONS",
-      "type": "tag",
-      "items": [
-        {
-          "name": "GIT"
-        },
-        {
-          "name": "PHP"
-        },
-        {
-          "name": "CMS"
-        },
-        {
-          "name": "AJAX"
-        },
-        {
-          "name": "GULP"
-        },
-        {
-          "name": "Vue.js"
-        },
-        {
-          "name": "Jquery"
-        },
-        {
-          "name": "Docker"
-        },
-        {
-          "name": "MySQL"
-        },
-        {
-          "name": "Laravel"
-        },
-        {
-          "name": "Alpine.js"
-        },
-        {
-          "name": "SiteCore"
-        },
-        {
-          "name": "Gatsby.js"
-        },
-        {
-          "name": "Webpack"
-        },
-        {
-          "name": "CakePHP"
-        },
-        {
-          "name": "JavaScript"
-        },
-        {
-          "name": "WordPress"
-        },
-        {
-          "name": "LESS/SCSS"
-        },
-        {
-          "name": "TailwindCSS"
-        },
-        {
-          "name": "Backbone.js"
-        },
-        {
-          "name": "SOAP/REST"
-        },
-        {
-          "name": "HTML5/PUG"
-        },
-        {
-          "name": "HeadlessCMS"
-        }
-      ]
-    },
-    {
-      "title": "SKILLS",
-      "type": "tag",
-      "items": [
-        {
-          "name": "Googling"
-        },
-        {
-          "name": "Team Spirit"
-        },
-        {
-          "name": "Self-starting"
-        },
-        {
-          "name": "Communicative"
-        },
-        {
-          "name": "Well Organized"
-        }
-      ]
     }
   ],
   "social": [
@@ -166,10 +172,6 @@
     {
       "service": "linkedin",
       "url": "https://www.linkedin.com/in/barbugeorge/"
-    },
-    {
-      "service": "cc",
-      "url": "https://github.com/george-barbu-cc/resume-george-barbu/raw/main/CV-George-Barbu.pdf"
     }
   ],
   "education": [
@@ -222,7 +224,7 @@
   ],
   "experience": [
     {
-      "label": "EMPLOYMENT HISTORY",
+      "label": "PROFESSIONAL  EXPERIENCE",
       "items": [
         {
           "start": "2021",
@@ -231,13 +233,16 @@
           "startDate": "2021",
           "duties": [
             {
-              "duty": "Optimizing the gaming application for maximum performance"
+              "duty": "Overseeing the development and deployment of Docker-based solutions"
             },
             {
               "duty": "Leading complex projects from concept to implementation"
             },
             {
-              "duty": "Key role in the development and improvement of web-based software"
+              "duty": "A pivotal role in advancing and enhancing web-based software solutions"
+            },
+            {
+              "duty": "Revamp the asset management system using Gulp for refactoring"
             }
           ],
           "service": "Yes",
@@ -252,20 +257,17 @@
           "startDate": "2019",
           "duties": [
             {
-              "duty": "Lead complex projects from concept to implementation"
+              "duty": "Designed and implemented a novel Landing Pages Platform, significantly cutting down the creation time from 3 hours to just 15 minutes."
             },
             {
-              "duty": "Created and maintained custom applications for CMS and Ops Teams"
+              "duty": "Refactor the WordPress blog for a 95% improvement in page speed"
             },
             {
-              "duty": "Developed and implemented new features for Headline Promotions"
-            },
-            {
-              "duty": "Created new Landing Pages Platform"
+              "duty": "Leading complex projects from concept to implementation"
             }
           ],
           "service": "No",
-          "role": "PRINCIPAL FRONTEND DEVELOPER",
+          "role": "STAFF ENGINEER",
           "end": "2021",
           "company": "ENTAIN"
         },
@@ -294,13 +296,13 @@
           "start": "2016",
           "presentDate": "No",
           "endDate": "2018",
-          "startDate": "2016",
+          "startDate": "2015",
           "duties": [
             {
-              "duty": "Optimize the gaming application for maximum performance"
+              "duty": "Central role in transitioning and deliver the platform migration from MicroGaming to Finnplay"
             },
             {
-              "duty": "Design and deliver the platform migration from MicroGaming to Finnplay"
+              "duty": "Collaborate with cross-functional teams to design and architect complex software system"
             },
             {
               "duty": "Asist the content team in defining new request in line with the technical capabilities"
@@ -314,8 +316,8 @@
         {
           "start": "2015",
           "presentDate": "No",
-          "endDate": "2016",
-          "startDate": "2015",
+          "endDate": "2015",
+          "startDate": "2014",
           "duties": [
             {
               "duty": "Lead a team of web developers, graphic designers and content managers"
@@ -328,30 +330,9 @@
             }
           ],
           "service": "No",
-          "role": "DEV TEAM LEAD - CONTRACT",
+          "role": "PROJECT TEAM LEAD",
           "end": "2016",
           "company": "GoWild Gaming"
-        },
-        {
-          "start": "2014",
-          "presentDate": "No",
-          "endDate": "2015",
-          "startDate": "2014",
-          "duties": [
-            {
-              "duty": "Create websites both with HTML / CSS and using WordPress"
-            },
-            {
-              "duty": "Web design development (CMS, E-Commerce, WordPress)"
-            },
-            {
-              "duty": "Full stack developer"
-            }
-          ],
-          "service": "No",
-          "role": "WEB DEVELOPER",
-          "end": "2015",
-          "company": "Angel Hot Soft LLC"
         },
         {
           "start": "2014",
@@ -415,30 +396,6 @@
           "role": "SOFTWARE TEST TECHNICIAN",
           "end": "2012",
           "company": "HP"
-        },
-        {
-          "start": "2012",
-          "presentDate": "Yes",
-          "endDate": "2021",
-          "startDate": "2021",
-          "duties": [
-            {
-              "duty": "Working with and coordinated both customers internal teams and 3rd party providers in order to ensure the project meets both business and technical requirements"
-            },
-            {
-              "duty": "Enhancing user experience and accomplishing webpage objectives by developing the site stricture, graphic integrations and performance optimization."
-            },
-            {
-              "duty": "Providing guidance and troubleshooting support to customers"
-            },
-            {
-              "duty": "Maintaining an organizing workflow using GitHub"
-            }
-          ],
-          "service": "Yes",
-          "role": "FREELANCE",
-          "end": "2021",
-          "company": "barbu.cc"
         }
       ]
     }

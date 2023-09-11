@@ -1,14 +1,16 @@
 backend:
-  name: github
+  name: git-gateway
   repo: george-barbu-cc/resume #TODO replace this with your own repo
   branch: main
+
+local_backend: true
 
 public_folder: assets
 media_folder: static/assets
 publish_mode: editorial_workflow
 display_url: Resume George Barbu
 site_url: https://george.barbu.cc
-logo_url: https://george.barbu.cc/logo.png
+logo_url: https://george.barbu.cc/assets/logo.png
 
 collections:
   - name: content
@@ -100,3 +102,5 @@ collections:
             fields:
               - { label: Service, name: service, widget: select, options: [github, linkedin, twitter, facebook, youtube, instagram, behance, dribbble, angellist, cc]}
               - { label: URL, name: url, widget: string }
+editor:
+    preview: true

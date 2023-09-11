@@ -14,13 +14,15 @@
     "proxy-server": "npx netlify-cms-proxy-server",
     "generate": "npx babel-node scripts/generate-pdf.js",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "local": "npm run develop && npm run proxy-server"
+    "local": "npm run develop && npm run proxy-server",
+    "gcp-build": "node node_modules/puppeteer/install.js"
   },
   "dependencies": {
     "@fontsource/lato": "^4.5.10",
     "@fontsource/montserrat": "^4.5.14",
     "@fontsource/norwester": "^4.5.4",
     "buffer": "^6.0.3",
+    "chromedriver": "^115.0.0",
     "file-loader": "^6.2.0",
     "file-saver": "^2.0.5",
     "fs": "^0.0.1-security",
@@ -45,7 +47,6 @@
     "netlify-cms-widget-relation": "^2.11.1",
     "process": "^0.11.10",
     "prop-types": "^15.8.1",
-    "puppeteer": "^21.1.0",
     "react": "^18.2.0 || ^17.0.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
@@ -59,9 +60,11 @@
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.31",
     "netlify-cms-proxy-server": "^1.3.24",
     "prettier": "^2.8.8",
+    "puppeteer": "^21.1.0",
     "tailwindcss": "^3.3.3",
     "tailwindcss-break": "^0.1.0"
   },
+  "webdriver:update": "webdriver-manager update --versions.chrome=114.0.5735.248",
   "repository": {
     "type": "git",
     "url": "https://github.com/barbugeorgedev/cv"

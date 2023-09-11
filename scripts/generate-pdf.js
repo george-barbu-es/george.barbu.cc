@@ -20,7 +20,9 @@ shell.mkdir('-p', './public/exports');
           <aside style="width: 237.5px;background: #313638;height: 1080px;"></aside>
         `;
 
-  const browser = await puppeteer.launch({headless: true});
+  const browser = await puppeteer.launch({
+    headless: 'new',
+  });
   const page = await browser.newPage();
   await page.waitForTimeout(4000)
   await page.setCacheEnabled(false);

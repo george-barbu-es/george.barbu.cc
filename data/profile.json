@@ -39,31 +39,43 @@
       "type": "tag",
       "items": [
         {
-          "name": "GIT"
+          "name": "JavaScript"
+        },
+        {
+          "name": "NextJS"
         },
         {
           "name": "PHP"
         },
         {
-          "name": "CMS"
-        },
-        {
-          "name": "AJAX"
-        },
-        {
-          "name": "GULP"
+          "name": "Docker"
         },
         {
           "name": "Vue.js"
         },
         {
-          "name": "Jquery"
-        },
-        {
-          "name": "Docker"
-        },
-        {
           "name": "MySQL"
+        },
+        {
+          "name": "Webpack"
+        },
+        {
+          "name": "TailwindCSS"
+        },
+        {
+          "name": "GIT"
+        },
+        {
+          "name": "GraphQL"
+        },
+        {
+          "name": "GULP"
+        },
+        {
+          "name": "Gatsby.js"
+        },
+        {
+          "name": "Jquery"
         },
         {
           "name": "Laravel"
@@ -75,25 +87,19 @@
           "name": "SiteCore"
         },
         {
-          "name": "Gatsby.js"
-        },
-        {
-          "name": "Webpack"
-        },
-        {
           "name": "CakePHP"
-        },
-        {
-          "name": "JavaScript"
         },
         {
           "name": "WordPress"
         },
         {
+          "name": "AJAX"
+        },
+        {
           "name": "LESS/SCSS"
         },
         {
-          "name": "TailwindCSS"
+          "name": "CMS"
         },
         {
           "name": "Backbone.js"
@@ -106,6 +112,33 @@
         },
         {
           "name": "HeadlessCMS"
+        },
+        {
+          "name": "CI/CD"
+        },
+        {
+          "name": "Jenkins"
+        }
+      ]
+    },
+    {
+      "title": "SOFT SKILLS",
+      "type": "tag",
+      "items": [
+        {
+          "name": "Googling"
+        },
+        {
+          "name": "Team Spirit"
+        },
+        {
+          "name": "Self-starting"
+        },
+        {
+          "name": "Communicative"
+        },
+        {
+          "name": "Well Organized"
         }
       ]
     },
@@ -133,27 +166,6 @@
         },
         {
           "name": "User Experience"
-        }
-      ]
-    },
-    {
-      "title": "SOFT SKILLS",
-      "type": "tag",
-      "items": [
-        {
-          "name": "Googling"
-        },
-        {
-          "name": "Team Spirit"
-        },
-        {
-          "name": "Self-starting"
-        },
-        {
-          "name": "Communicative"
-        },
-        {
-          "name": "Well Organized"
         }
       ]
     }

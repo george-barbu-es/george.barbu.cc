@@ -4,7 +4,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 export default function TopHeader({data}) {
   const image = getImage(data.profileImage.cloudinaryMedia);
   return (
-    <div className="bg-primary w-full h-44 flex flex-col content-center top-12 justify-end relative pb-4 mt-20 print:pb-0 print:absolute print:justify-center print:h-32 print:mt-0    sm:pb-0 sm:absolute sm:justify-center sm:h-32 sm:mt-0">
+    <div className="bg-primary w-full h-44 flex flex-col content-center top-12 justify-end relative pb-4 mt-20 print:pb-0 print:absolute print:justify-center print:h-32 print:mt-0  print:bg-primary  sm:pb-0 sm:absolute sm:justify-center sm:h-32 sm:mt-0">
         <div className="flex relative w-full">
             <GatsbyImage className="
                 !relative w-[180px] -translate-y-24 left-0 mx-auto z-10 

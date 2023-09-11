@@ -22,8 +22,10 @@ shell.mkdir('-p', './public/exports');
 
   const browser = await puppeteer.launch({
     headless: 'new',
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
   const page = await browser.newPage();
+  await page.setCacheEnabled(false);
   await page.waitForTimeout(4000)
   await page.setCacheEnabled(false);
   await page.setViewport({

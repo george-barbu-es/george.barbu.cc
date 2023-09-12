@@ -22,7 +22,7 @@ shell.mkdir('-p', './public/exports');
 
   const browser = await puppeteer.launch({
     headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--enable-logging'],
   });
   const page = await browser.newPage();
   await page.setCacheEnabled(false);

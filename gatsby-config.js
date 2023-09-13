@@ -12,10 +12,14 @@ module.exports = {
   siteMetadata: {
     title: `George Barbu | FULLSTACK DEVELOPER`,
     author: `George Barbu`,
-    description: `Web developer with more than 7 years of experience in HTML, CSS, JavaScript. 
-    With a strong desire to learn I’m always looking for ways to provide more value to the business
-    by closely working with other departments (Product, Marketing, BI)`,
+    description: `With over 10 years of expertise in HTML, CSS, and JavaScript, 
+    I possess a strong passion for continuous learning. 
+    I consistently seek opportunities to enhance business value by collaborating 
+    closely with various departments, including Product, Marketing, and BI.`,
     siteUrl: process.env.GATSBY_SITE_URL,
+  },
+  flags: {
+    LAZY_IMAGES: false,
   },
   plugins: [
     {

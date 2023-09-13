@@ -12,6 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "generate": "npx babel-node scripts/generate-pdf.js",
+    "admin-local": "npx netlify-cms-proxy-server",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {

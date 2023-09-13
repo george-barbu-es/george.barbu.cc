@@ -24,6 +24,7 @@ shell.mkdir('-p', './public/exports');
     headless: 'new',
   });
   const page = await browser.newPage();
+  await page.setCacheEnabled(false);
   await page.waitForTimeout(4000)
   await page.setCacheEnabled(false);
   await page.setViewport({

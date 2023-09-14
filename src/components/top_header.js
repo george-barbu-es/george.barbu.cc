@@ -22,10 +22,10 @@ export default function TopHeader({data}) {
                 <h3 className="text-white font-normal text-3xl mb-3 font-norwester tracking-wider">{data.text[field]}</h3>  
             )}
             {field === 'role' && (
-                <span className="font-semibold font-montserrat tracking-widest">{data.text[field]}</span>
+                <span className="text-white font-semibold font-montserrat tracking-widest">{data.text[field]}</span>
             )}
                 {field === 'slogan' && (
-                <span className="text-sm leading-3 font-montserrat tracking-wide">{data.text[field]}</span>
+                <span className="text-white text-sm leading-3 font-montserrat tracking-wide">{data.text[field]}</span>
             )}
             </div>
         ))}   

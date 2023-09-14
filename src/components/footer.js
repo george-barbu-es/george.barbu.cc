@@ -8,12 +8,11 @@ const Footer = ({ social }) => (
       <span className="inline-block mr-1">
         © {new Date().getFullYear()} | Developed with
       </span>
-      <span className="inline-block mr-1">
+      <a href="https://www.gatsbyjs.com" target="_blank" className="inline-block mr-1">
         <HeartIcon
-          className="h-3 w-3 fill-current"
-          style={{ color: '#de3618' }}
+          className="h-3 w-3 fill-primary"
         />
-      </span>
+      </a>
       <span className="inline-block mr-1">by</span>
       <a
         className="text-primary hover:text-primary font-bold"

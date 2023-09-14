@@ -2,7 +2,7 @@
   "name": "george-barbu-cv",
   "private": true,
   "description": "George Barbu CV",
-  "version": "1.1.0",
+  "version": "1.2.5",
   "license": "MIT",
   "scripts": {
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "generate": "npx babel-node scripts/generate-pdf.js",
-    "admin-local": "npx netlify-cms-proxy-server",
+    "admin-local": "npx netlify-cms-proxy-server && start http://localhost:8000/admin",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
@@ -36,10 +36,11 @@
     "gatsby-plugin-image": "^3.12.0",
     "gatsby-plugin-manifest": "^5.12.0",
     "gatsby-plugin-netlify": "^5.1.0",
-    "gatsby-plugin-netlify-cms": "^7.12.0",
+    "gatsby-plugin-netlify-cms": "^5.8.0",
     "gatsby-plugin-offline": "^6.12.0",
     "gatsby-plugin-postcss": "^6.12.0",
     "gatsby-plugin-purgecss": "^6.2.1",
+    "gatsby-plugin-pwainstall": "^1.1.2",
     "gatsby-plugin-react-svg": "^3.3.0",
     "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sharp": "^5.12.0",

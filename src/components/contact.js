@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = ({ data, className }) => (
   <div className={className}>
-    <h3 className="uppercase font-norwester text-xl text-primary mb-4">{data.label}</h3>
+    <h3 className="uppercase font-norwester text-xl text-primary-light mb-4">{data.label}</h3>
     <span className="text-[0.70rem] font-lato">
       <ul>
       {data && (

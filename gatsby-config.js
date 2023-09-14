@@ -28,10 +28,16 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#38B2AC`,
         display: `standalone`,
-        icon: 'src/assets/site-icon.jpg'
+        icon: 'src/assets/site-icon.jpg',
+        icon_options: {
+          // For all the options available,
+          // please see the section "Additional Resources" below.
+          purpose: `any maskable`,
+        },
       },
     },
     'gatsby-plugin-offline',
+    'gatsby-plugin-pwainstall',
     'gatsby-transformer-json',
     {
       resolve: `gatsby-source-filesystem`,

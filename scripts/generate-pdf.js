@@ -17,7 +17,7 @@ shell.mkdir('-p', './public/exports');
             }
             #header, #footer { padding: 0 !important; }
           </style>
-          <aside style="width: 237.5px;background: #313638;height: 1080px;"></aside>
+          <aside style="width: 237.5px;background: #232323;height: 1080px;"></aside>
         `;
 
   const browser = await puppeteer.launch({

@@ -67,7 +67,15 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-netlify-cms',
+     {
+    resolve: `gatsby-plugin-netlify-cms`,
+    options: {
+      enableIdentityWidget: true,
+      publicPath: `admin`,
+      includeRobots: false,
+    },
+  },
+    
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,

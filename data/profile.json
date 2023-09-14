@@ -31,7 +31,7 @@
   },
   "summary": {
     "label": "SUMMARY",
-    "text": "With over 10 years of expertise in HTML, CSS, and JavaScript, I possess a strong passion for continuous learning. I consistently seek opportunities to enhance business value by collaborating closely with various departments, including Product, Marketing, and BI."
+    "text": "With over 11 years of expertise in HTML, CSS, and JavaScript, I possess a strong passion for continuous learning. I consistently seek opportunities to enhance business value by collaborating closely with various departments, including Product, Marketing, and BI."
   },
   "skills": [
     {
@@ -236,7 +236,10 @@
               "duty": "Refactor the WordPress blog for a 95% improvement in page speed"
             },
             {
-              "duty": "Leading complex projects from concept to implementation"
+              "duty": "Offer technical leadership, guide teams, and ensure best practices."
+            },
+            {
+              "duty": "Team up with product, QA, and operations for project success"
             }
           ],
           "service": "No",
@@ -251,7 +254,7 @@
           "startDate": "2018",
           "duties": [
             {
-              "duty": "Build custom functionalities both for Frontend and Backend"
+              "duty": "Enhance web app performance, security, and scalability"
             },
             {
               "duty": "Work with the brand content team to make sure new requests are in line with the technical capabilities of the platform and the team"
@@ -278,7 +281,10 @@
               "duty": "Collaborate with cross-functional teams to design and architect complex software system"
             },
             {
-              "duty": "Asist the content team in defining new request in line with the technical capabilities"
+              "duty": "Help create tech strategies and roadmaps in sync with business goals"
+            },
+            {
+              "duty": "Track industry trends and tech advances for product enhancement"
             }
           ],
           "service": "No",
@@ -293,13 +299,16 @@
           "startDate": "2014",
           "duties": [
             {
-              "duty": "Lead a team of web developers, graphic designers and content managers"
+              "duty": "Lead, mentor, and motivate a 5-person team, setting clear goals and offering ongoing guidance and feedback"
             },
             {
               "duty": "Lead the evaluation and design of new technical solutions"
             },
             {
               "duty": "Formulate the team strategy and development plans"
+            },
+            {
+              "duty": "Conduct performance reviews, pinpoint improvement areas, and aid in team members' professional development"
             }
           ],
           "service": "No",

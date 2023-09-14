@@ -60,10 +60,10 @@ export default function Home({ data }) {
             <Seo title="Resume" />
             <header data-exclude="true" className="max-w-screen-pdf relative mx-auto items-center justify-center text-center pt-6 lg:pb-5 ">
                 <button onClick={downloadPDF} type="primary" className="mr-2" aria-label="Download CV">
-                    <DownloadIcon className="h-6 fill-current" />
+                    <DownloadIcon className="h-6  fill-gray" />
                 </button> 
                 <button onClick={printPDF} type="primary" className="ml-2" aria-label="Print CV">
-                    <PrintIcon className="h-6 fill-current" />
+                    <PrintIcon className="h-6 fill-gray" />
                 </button> 
             </header>
 

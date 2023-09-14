@@ -13,25 +13,25 @@ import CcIcon from '../assets/cc.svg';
 const SocialIcon = ({ type }) => {
   switch (type) {
     case 'linkedin':
-      return <LinkedinIcon className="h-6 fill-current stroke-[#313638]" />;
+      return <LinkedinIcon className="h-6 fill-gray stroke-[#313638]" />;
     case 'twitter':
-      return <TwitterIcon className="h-6 fill-current stroke-[#313638]" />;
+      return <TwitterIcon className="h-6 fill-gray stroke-[#313638]" />;
     case 'facebook':
-      return <FacebookIcon className="h-6 fill-current stroke-[#313638]" />;
+      return <FacebookIcon className="h-6 fill-gray stroke-[#313638]" />;
     case 'youtube':
-      return <YoutubeIcon className="h-6 fill-current stroke-[#313638]" />;
+      return <YoutubeIcon className="h-6 fill-gray stroke-[#313638]" />;
     case 'instagram':
-      return <InstagramIcon className="h-6 fill-current stroke-[#313638]" />;
+      return <InstagramIcon className="h-6 fill-gray stroke-[#313638]" />;
     case 'github':
-      return <GithubIcon className="h-6 fill-current stroke-[#313638]" />;
+      return <GithubIcon className="h-6 fill-gray stroke-[#313638]" />;
     case 'behance':
-      return <BehanceIcon className="h-6 fill-current stroke-[#313638]" />;
+      return <BehanceIcon className="h-6 fill-gray stroke-[#313638]" />;
     case 'dribbble':
-      return <DribbbleIcon className="h-6 fill-current stroke-[#313638]" />;
+      return <DribbbleIcon className="h-6 fill-gray stroke-[#313638]" />;
     case 'angellist':
-      return <AngelIcon className="h-6 fill-current stroke-[#313638]" />;
+      return <AngelIcon className="h-6 fill-gray stroke-[#313638]" />;
     case 'cc':
-      return <CcIcon className="h-6 fill-current stroke-[#313638]" />;
+      return <CcIcon className="h-6 fill-gray stroke-[#313638]" />;
     default:
       return null;
   }

@@ -18,9 +18,6 @@ module.exports = {
     closely with various departments, including Product, Marketing, and BI.`,
     siteUrl: process.env.GATSBY_SITE_URL,
   },
-  flags: {
-    LAZY_IMAGES: false,
-  },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
@@ -31,10 +28,16 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#38B2AC`,
         display: `standalone`,
-        icon: 'src/assets/site-icon.jpg'
+        icon: 'src/assets/site-icon.jpg',
+        icon_options: {
+          // For all the options available,
+          // please see the section "Additional Resources" below.
+          purpose: `any maskable`,
+        },
       },
     },
     'gatsby-plugin-offline',
+    'gatsby-plugin-pwainstall',
     'gatsby-transformer-json',
     {
       resolve: `gatsby-source-filesystem`,
@@ -64,7 +67,15 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-netlify-cms',
+     {
+    resolve: `gatsby-plugin-netlify-cms`,
+    options: {
+      enableIdentityWidget: true,
+      publicPath: `admin`,
+      includeRobots: false,
+    },
+  },
+    
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,

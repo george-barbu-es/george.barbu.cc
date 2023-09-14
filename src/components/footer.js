@@ -8,15 +8,14 @@ const Footer = ({ social }) => (
       <span className="inline-block mr-1">
         © {new Date().getFullYear()} | Developed with
       </span>
-      <span className="inline-block mr-1">
+      <a href="https://www.gatsbyjs.com" title="gatsbyJS" rel="noreferrer" target="_blank" className="inline-block mr-1">
         <HeartIcon
-          className="h-3 w-3 fill-current"
-          style={{ color: '#de3618' }}
+          className="h-3 w-3 fill-primary-dark"
         />
-      </span>
+      </a>
       <span className="inline-block mr-1">by</span>
       <a
-        className="text-primary hover:text-primary font-bold"
+        className="text-primary-dark hover:text-primary font-bold"
         href={process.env.GATSBY_SITE_URL}
         target="_blank"
         rel="noopener noreferrer"
@@ -29,7 +28,7 @@ const Footer = ({ social }) => (
         {social.map(item => (
           <a
             key={item.service}
-            className="text-primary-900 ml-4 hover:text-primary-500"
+            className="text-primary-dark ml-4 hover:text-primary-light"
             href={item.url}
             target="_blank"
             rel="noopener noreferrer"

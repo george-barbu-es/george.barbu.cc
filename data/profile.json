@@ -25,7 +25,7 @@
     ]
   },
   "header": {
-    "fullname": "GEORGE BARBU ",
+    "fullname": "GEORGE BARBU",
     "role": "FULLSTACK DEVELOPER",
     "slogan": "My objective is “performance”"
   },
@@ -133,6 +133,12 @@
         },
         {
           "name": "Ownership"
+        },
+        {
+          "name": "Adaptability"
+        },
+        {
+          "name": "Continuous Learning"
         }
       ]
     }
@@ -209,7 +215,7 @@
               "duty": "Overseeing the development and deployment of Docker-based solutions"
             },
             {
-              "duty": "Leading complex projects from concept to implementation"
+              "duty": "Lead complex projects from concept to implementation"
             },
             {
               "duty": "A pivotal role in advancing and enhancing web-based software solutions"
@@ -230,13 +236,16 @@
           "startDate": "2019",
           "duties": [
             {
-              "duty": "Designed and implemented a novel Landing Pages Platform, significantly cutting down the creation time from 3 hours to just 15 minutes."
+              "duty": "Designed and implemented a novel Landing Pages Platform, significantly cutting down the creation time from 3 hours to just 15 minutes"
             },
             {
               "duty": "Refactor the WordPress blog for a 95% improvement in page speed"
             },
             {
-              "duty": "Leading complex projects from concept to implementation"
+              "duty": "Ensure client/stakeholder satisfaction through effective communication"
+            },
+            {
+              "duty": "Offer technical leadership, guide teams, and ensure best practices"
             }
           ],
           "service": "No",
@@ -251,13 +260,13 @@
           "startDate": "2018",
           "duties": [
             {
-              "duty": "Build custom functionalities both for Frontend and Backend"
+              "duty": "Enhance web app performance, security, and scalability"
             },
             {
               "duty": "Work with the brand content team to make sure new requests are in line with the technical capabilities of the platform and the team"
             },
             {
-              "duty": "Peer review the work delivered by the team to ensure only highest quality is delivered"
+              "duty": "Team up with product, QA, and operations for project success"
             }
           ],
           "service": "No",
@@ -278,7 +287,10 @@
               "duty": "Collaborate with cross-functional teams to design and architect complex software system"
             },
             {
-              "duty": "Asist the content team in defining new request in line with the technical capabilities"
+              "duty": "Help content team align requests with technical capabilities"
+            },
+            {
+              "duty": "Track industry trends and tech advances for product enhancement"
             }
           ],
           "service": "No",
@@ -293,13 +305,16 @@
           "startDate": "2014",
           "duties": [
             {
-              "duty": "Lead a team of web developers, graphic designers and content managers"
+              "duty": "Lead, mentor, and motivate a team of 5, setting clear goals and offering ongoing guidance and feedback"
             },
             {
-              "duty": "Lead the evaluation and design of new technical solutions"
+              "duty": "Take the lead in assessing and designing innovative technical solutions"
             },
             {
               "duty": "Formulate the team strategy and development plans"
+            },
+            {
+              "duty": "Conduct performance reviews, pinpoint improvement areas, and aid in team members' professional development"
             }
           ],
           "service": "No",
@@ -314,13 +329,16 @@
           "startDate": "2014",
           "duties": [
             {
-              "duty": "Create new functionality to the existing Learning Management System (LMS)"
+              "duty": "Enhance the existing Learning Management System (LMS) by adding new features and capabilities"
             },
             {
-              "duty": "Develop new reports in the internal reporting system using MySQL"
+              "duty": "Build additional reports within the internal reporting system by leveraging MySQL"
             },
             {
-              "duty": "Learn Back End technologies and develop the in house applications"
+              "duty": "Gain proficiency in backend technologies and build internal applications"
+            },
+            {
+              "duty": "Acquire proficiency in CSS and HTML"
             }
           ],
           "service": "No",
@@ -335,13 +353,13 @@
           "startDate": "2012",
           "duties": [
             {
-              "duty": "In charge of customer experience ensuring they enjoy the time spent in the casino and increasing their brand loyalty"
+              "duty": "Responsible for optimizing the customer experience, ensuring a pleasurable time at the casino, and fostering increased brand loyalty"
             },
             {
-              "duty": "Create a lively gaming experience for players"
+              "duty": "Craft an engaging gaming atmosphere for players"
             },
             {
-              "duty": "Ensure all bet rules are respected"
+              "duty": "Guarantee strict adherence to all betting rules"
             }
           ],
           "service": "No",

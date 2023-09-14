@@ -55,7 +55,7 @@ export default function Home({ data }) {
     }  
 
     return (
-        <main className="w-full text-secondary bg-[#525659] min-h-screen">
+        <main className="w-full text-gray bg-[#525659] min-h-screen">
             
             <Seo title="Resume" />
             <header data-exclude="true" className="max-w-screen-pdf relative mx-auto items-center justify-center text-center pt-6 lg:pb-5 ">
@@ -69,7 +69,7 @@ export default function Home({ data }) {
 
             <div className="printColor max-w-screen-pdf relative mx-auto lg:flex">
                 <TopHeader data={{'text':resume.header, 'profileImage':data}} /> 
-                <div className="bg-secondary px-8 lg:w-2/5">
+                <div className="bg-gray px-8 lg:w-2/5">
                     <Sidebar  
                         className="mt-5 pb-10 pt-16 print:pt-56 sm:pt-56"
                         skills={resume.skills}

@@ -22,6 +22,7 @@
     "buffer": "^6.0.3",
     "fs": "^0.0.1-security",
     "gatsby": "^5.12.1",
+    "gatsby-plugin-google-gtag": "^5.12.3",
     "process": "^0.11.10",
     "prop-types": "^15.8.1",
     "react": "^18.2.0 || ^17.0.0",

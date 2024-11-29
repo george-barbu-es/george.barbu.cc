@@ -50,7 +50,7 @@ Open `static/admin/config.yml`. Replace `george-barbu-es/resume` with your GitHu
 ```yaml
 backend:
   name: github
-  repo: george-barbu-cc/resume #TODO replace this with your own repo
+  repo: george-barbu-es/resume #TODO replace this with your own repo
 ```
 
 Publish your repo to Github, then, open [Netlify](https://app.netlify.com) and add a “New site from Git”. Choose your newly created repo and click on “Deploy site” with the default deployment settings.

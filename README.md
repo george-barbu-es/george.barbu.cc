@@ -1,6 +1,6 @@
 # Gatsby Starter Resume CMS
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ec2d2ed4-bab8-402f-b24b-090bc4e909a2/deploy-status)](https://app.netlify.com/sites/george-barbu-cc/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec2d2ed4-bab8-402f-b24b-090bc4e909a2/deploy-status)](https://app.netlify.com/sites/george-barbu-es/deploys)
 
 ## Features
 
@@ -45,7 +45,7 @@ The resume content is generated from `data/profile.json` file. You can manually 
 
 To use Netlify CMS  you’ll need to deploy to Netlify through GitHub, Gitlab or Bitbucket, set up continuous deployment, and do a few configuration. For Github:
 
-Open `static/admin/config.yml`. Replace `george-barbu-cc/resume` with your GitHub username and project name. This step is important for managing and deploying the Netlify CMS interface.
+Open `static/admin/config.yml`. Replace `george-barbu-es/resume` with your GitHub username and project name. This step is important for managing and deploying the Netlify CMS interface.
 
 ```yaml
 backend:

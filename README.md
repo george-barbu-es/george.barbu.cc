@@ -25,7 +25,7 @@ Use the Gatsby CLI to create a new site, specifying the resume starter.
 
 ```shell
 # create a new Gatsby site using the cv starter
-gatsby new my-resume https://github.com/george-barbu-cc
+gatsby new my-resume https://github.com/george-barbu-es
 ```
 
 ### Start developing

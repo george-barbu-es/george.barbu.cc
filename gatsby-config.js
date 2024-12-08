@@ -1,11 +1,11 @@
 if (process.env.STAGING) {
-  require("dotenv").config({
+  require('dotenv').config({
     path: `.env.${process.env.NODE_ENV}.staging`,
-  })
+  });
 } else {
-  require("dotenv").config({
+  require('dotenv').config({
     path: `.env.${process.env.NODE_ENV}`,
-  })
+  });
 }
 
 module.exports = {
@@ -37,7 +37,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    'gatsby-plugin-pwainstall',
     'gatsby-transformer-json',
     {
       resolve: `gatsby-source-filesystem`,
@@ -55,34 +54,35 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-netlify",
+      resolve: 'gatsby-plugin-netlify',
       options: {
-      headers: {
-          "/*": [
-            "X-XSS-Protection: 1; mode=block",
-            "X-Content-Type-Options: nosniff",
-            "Referrer-Policy: same-origin",
-            `Content-Security-Policy: frame-ancestors 'self' https://george.barbu.cc`,
+        headers: {
+          '/*': [
+            'X-XSS-Protection: 1; mode=block',
+            'X-Content-Type-Options: nosniff',
+            'Referrer-Policy: same-origin',
+            `Content-Security-Policy: frame-ancestors 'self' https://george.barbu.es`,
           ],
         },
       },
     },
-     {
-    resolve: `gatsby-plugin-netlify-cms`,
-    options: {
-      enableIdentityWidget: true,
-      publicPath: `admin`,
-      includeRobots: false,
+    {
+      resolve: `gatsby-plugin-decap-cms`,
+      options: {
+        enableIdentityWidget: true,
+        publicPath: `admin`,
+        htmlTitle: `Content Manager`,
+        htmlFavicon: `static/assets/logo.png`,
+        includeRobots: false,
+      },
     },
-  },
-    
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true,
         tailwind: true,
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-web-font-loader`,
@@ -92,14 +92,14 @@ module.exports = {
         },
       },
     },
-   {
+    {
       resolve: `gatsby-source-cloudinary`,
       options: {
         cloudName: process.env.CLOUDINARY_CLOUD_NAME,
         apiKey: process.env.CLOUDINARY_API_KEY,
         apiSecret: process.env.CLOUDINARY_API_SECRET,
         resourceType: `image`,
-        prefix: `george.barbu.cc/` 
+        prefix: `george.barbu.es/`,
         // type: `twitter`,
         // maxResults: 22,
         // tags: true,
@@ -115,7 +115,7 @@ module.exports = {
     },
     `gatsby-plugin-image`,
     {
-      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
       options: {
         devMode: true,
       },
@@ -123,24 +123,24 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://george.barbu.cc',
-        sitemap: 'https://george.barbu.cc/sitemap/sitemap-index.xml',
-        policy: [{userAgent: '*', allow: '/'}],
-      }
+        host: 'https://george.barbu.es',
+        sitemap: 'https://george.barbu.es/sitemap/sitemap-index.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
     },
     {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "G-FWV6WKTY4Y", // Google Analytics / GA
-          "AW-CONVERSION_ID", // Google Ads / Adwords / AW
-          "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+          'G-FWV6WKTY4Y', // Google Analytics / GA
+          'AW-CONVERSION_ID', // Google Ads / Adwords / AW
+          'DC-FLOODIGHT_ID', // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
         gtagConfig: {
-          optimize_id: "OPT_CONTAINER_ID",
+          optimize_id: 'OPT_CONTAINER_ID',
           anonymize_ip: true,
           cookie_expires: 0,
         },
@@ -151,9 +151,9 @@ module.exports = {
           // Setting this parameter is also optional
           respectDNT: true,
           // Avoids sending pageview hits from custom paths
-          exclude: ["/preview/**", "/do-not-track/me/too/"],
+          exclude: ['/preview/**', '/do-not-track/me/too/'],
           // Defaults to https://www.googletagmanager.com
-          origin: "https://george.barbu.cc",
+          origin: 'https://george.barbu.es',
           // Delays processing pageview events on route update (in milliseconds)
           delayOnRouteUpdate: 0,
         },

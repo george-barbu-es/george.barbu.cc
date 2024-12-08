@@ -9,8 +9,8 @@ public_folder: assets
 media_folder: static/assets
 publish_mode: editorial_workflow
 display_url: Resume George Barbu
-site_url: https://george.barbu.cc
-logo_url: https://george.barbu.cc/assets/logo.png
+site_url: https://george.barbu.es
+logo_url: https://george.barbu.es/assets/logo.png
 
 editor:
     preview: true

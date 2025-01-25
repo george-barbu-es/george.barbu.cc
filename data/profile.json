@@ -16,22 +16,22 @@
       },
       {
         "service": "email",
-        "value": "george@barbu.cc"
+        "value": "george@barbu.es"
       },
       {
         "service": "website",
-        "value": "https://george.barbu.cc"
+        "value": "https://george.barbu.es"
       }
     ]
   },
   "header": {
     "fullname": "GEORGE BARBU",
-    "role": "FULLSTACK DEVELOPER",
-    "slogan": "My objective is “performance”"
+    "role": "Technical Solutions Leader",
+    "slogan": "Driving innovation through technical excellence."
   },
   "summary": {
     "label": "SUMMARY",
-    "text": "With over 10 years of expertise in HTML, CSS, and JavaScript, I possess a strong passion for continuous learning. I consistently seek opportunities to enhance business value by collaborating closely with various departments, including Product, Marketing, and BI."
+    "text": "Highly skilled full-stack developer with over 10 years of experience delivering scalable, high-performance software solutions. Proven ability to lead cross-functional teams, design innovative systems, and optimize workflows. Strong background in front-end and back-end technologies with a focus on collaboration and technical leadership. Passionate about integrating technology and business goals to achieve measurable results."
   },
   "skills": [
     {
@@ -39,7 +39,7 @@
       "type": "tag",
       "items": [
         {
-          "name": "JavaScript"
+          "name": "JavaScript (ES6+)"
         },
         {
           "name": "NextJS"
@@ -57,7 +57,7 @@
           "name": "MySQL"
         },
         {
-          "name": "Webpack"
+          "name": "React"
         },
         {
           "name": "TailwindCSS"
@@ -120,25 +120,19 @@
       "type": "tag",
       "items": [
         {
-          "name": "Resilience"
+          "name": "Leadership & Mentorship"
         },
         {
-          "name": "Team Spirit"
+          "name": "Strategic Thinking"
         },
         {
           "name": "Self-starting"
         },
         {
-          "name": "Communicative"
+          "name": "Collaboration & Communication"
         },
         {
-          "name": "Ownership"
-        },
-        {
-          "name": "Adaptability"
-        },
-        {
-          "name": "Continuous Learning"
+          "name": "Problem Solving & Adaptability"
         }
       ]
     }
@@ -146,7 +140,7 @@
   "social": [
     {
       "service": "github",
-      "url": "https://github.com/george-barbu-cc"
+      "url": "https://github.com/george-barbu-es"
     },
     {
       "service": "linkedin",
@@ -212,16 +206,16 @@
           "startDate": "2021",
           "duties": [
             {
-              "duty": "Overseeing the development and deployment of Docker-based solutions"
+              "duty": "Led full-cycle development of complex web applications, ensuring scalable and maintainable solutions."
             },
             {
               "duty": "Lead complex projects from concept to implementation"
             },
             {
-              "duty": "A pivotal role in advancing and enhancing web-based software solutions"
+              "duty": "Actively collaborated with cross-departmental teams to align technical solutions with business needs."
             },
             {
-              "duty": "Revamp the asset management system using Gulp for refactoring"
+              "duty": "Modernized the asset management system by integrating Gulp for enhanced performance and maintainability."
             }
           ],
           "service": "Yes",
@@ -230,10 +224,10 @@
           "company": "Kindred Group"
         },
         {
-          "start": "2019",
+          "start": "2020",
           "presentDate": "No",
           "endDate": "2021",
-          "startDate": "2019",
+          "startDate": "2020",
           "duties": [
             {
               "duty": "Designed and implemented a novel Landing Pages Platform, significantly cutting down the creation time from 3 hours to just 15 minutes"
@@ -254,6 +248,30 @@
           "company": "ENTAIN"
         },
         {
+          "start": "2019",
+          "presentDate": "No",
+          "endDate": "2020",
+          "startDate": "2019",
+          "duties": [
+            {
+              "duty": "Designed and implemented a novel Landing Pages Platform, significantly cutting down the creation time from 3 hours to just 15 minutes"
+            },
+            {
+              "duty": "Refactor the WordPress blog for a 95% improvement in page speed"
+            },
+            {
+              "duty": "Ensure client/stakeholder satisfaction through effective communication"
+            },
+            {
+              "duty": "Offer technical leadership, guide teams, and ensure best practices"
+            }
+          ],
+          "service": "No",
+          "role": "FRONTEND ENGINEER",
+          "end": "2020",
+          "company": "ENTAIN"
+        },
+        {
           "start": "2018",
           "presentDate": "No",
           "endDate": "2019",
@@ -263,7 +281,7 @@
               "duty": "Enhance web app performance, security, and scalability"
             },
             {
-              "duty": "Work with the brand content team to make sure new requests are in line with the technical capabilities of the platform and the team"
+              "duty": "Collaborated with the brand content team to ensure new requests aligned with platform capabilities"
             },
             {
               "duty": "Team up with product, QA, and operations for project success"

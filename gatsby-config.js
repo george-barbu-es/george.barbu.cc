@@ -1,11 +1,11 @@
 if (process.env.STAGING) {
-  require("dotenv").config({
+  require('dotenv').config({
     path: `.env.${process.env.NODE_ENV}.staging`,
-  })
+  });
 } else {
-  require("dotenv").config({
+  require('dotenv').config({
     path: `.env.${process.env.NODE_ENV}`,
-  })
+  });
 }
 
 module.exports = {
@@ -37,7 +37,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    'gatsby-plugin-pwainstall',
     'gatsby-transformer-json',
     {
       resolve: `gatsby-source-filesystem`,
@@ -55,34 +54,35 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-netlify",
+      resolve: `gatsby-plugin-decap-cms`,
       options: {
-      headers: {
-          "/*": [
-            "X-XSS-Protection: 1; mode=block",
-            "X-Content-Type-Options: nosniff",
-            "Referrer-Policy: same-origin",
+        enableIdentityWidget: true,
+        publicPath: `admin`,
+        htmlTitle: `Content Manager`,
+        htmlFavicon: `static/assets/logo.png`,
+        includeRobots: false,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/*': [
+            'X-XSS-Protection: 1; mode=block',
+            'X-Content-Type-Options: nosniff',
+            'Referrer-Policy: same-origin',
             `Content-Security-Policy: frame-ancestors 'self' https://george.barbu.cc`,
           ],
         },
       },
     },
-     {
-    resolve: `gatsby-plugin-netlify-cms`,
-    options: {
-      enableIdentityWidget: true,
-      publicPath: `admin`,
-      includeRobots: false,
-    },
-  },
-    
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true,
         tailwind: true,
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-web-font-loader`,
@@ -92,14 +92,14 @@ module.exports = {
         },
       },
     },
-   {
+    {
       resolve: `gatsby-source-cloudinary`,
       options: {
         cloudName: process.env.CLOUDINARY_CLOUD_NAME,
         apiKey: process.env.CLOUDINARY_API_KEY,
         apiSecret: process.env.CLOUDINARY_API_SECRET,
         resourceType: `image`,
-        prefix: `george.barbu.cc/` 
+        prefix: `george.barbu.cc/`,
         // type: `twitter`,
         // maxResults: 22,
         // tags: true,
@@ -115,7 +115,7 @@ module.exports = {
     },
     `gatsby-plugin-image`,
     {
-      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
       options: {
         devMode: true,
       },
@@ -125,8 +125,8 @@ module.exports = {
       options: {
         host: 'https://george.barbu.cc',
         sitemap: 'https://george.barbu.cc/sitemap/sitemap-index.xml',
-        policy: [{userAgent: '*', allow: '/'}],
-      }
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
     },
   ],
 };

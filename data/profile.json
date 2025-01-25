@@ -206,9 +206,6 @@
           "startDate": "2021",
           "duties": [
             {
-              "duty": "Led full-cycle development of complex web applications, ensuring scalable and maintainable solutions."
-            },
-            {
               "duty": "Lead complex projects from concept to implementation"
             },
             {
@@ -236,9 +233,6 @@
               "duty": "Refactor the WordPress blog for a 95% improvement in page speed"
             },
             {
-              "duty": "Ensure client/stakeholder satisfaction through effective communication"
-            },
-            {
               "duty": "Offer technical leadership, guide teams, and ensure best practices"
             }
           ],
@@ -261,9 +255,6 @@
             },
             {
               "duty": "Ensure client/stakeholder satisfaction through effective communication"
-            },
-            {
-              "duty": "Offer technical leadership, guide teams, and ensure best practices"
             }
           ],
           "service": "No",

@@ -15,3 +15,8 @@ exports.onCreateWebpackConfig = ({ actions }) => {
     },
   })
 }
+
+exports.onPostBuild = (pages, callback) => {
+  // Copy profile.
+  fs.copySync(path.join(__dirname, '/data'), path.join(__dirname, '/public/api'))
+}
